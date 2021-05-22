@@ -53,7 +53,7 @@ namespace PostAnteWallet.Methods
                 method = "avm.getBalance",
                 PARAMS = new PARAMS
                 {
-                    assetID = "C7U7CfjXNyYAtZCkmaTk6YAUJHsJuuPUPvapSF6nDmjuEtyf8",
+                    assetID = "Gönderim yapacağınız coinin asset idsi",
                     address = adress
                 }
             };
