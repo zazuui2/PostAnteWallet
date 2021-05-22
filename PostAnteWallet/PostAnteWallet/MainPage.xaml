@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PostAnteWallet.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250" Grid.Row="0">
+
+        <Label Text="Hesap Bakiyeniz:" HorizontalOptions="Center" Padding="0,0,0,10"></Label>
+        <Label x:Name="wallet_amount" Text="0 PostAnteToken" HorizontalOptions="Center" Padding="0,0,0,25"></Label>
+        <Label Text="Para Gönder:" HorizontalOptions="Center"></Label>
+        <Entry x:Name ="walled_adress" Text="X-fuji10ypxvc4ky7t72sq9rwn9wc6q53teypzkuzr3z5" Placeholder="Lütfen Değer Girin" ></Entry>
+        <Entry x:Name="send_amount" Placeholder="Gönderilecek miktar" ></Entry>
+        <Label x:Name="txid"></Label>
+        <Button Clicked="Button_Clicked" Text="Parayı Gönder"></Button>
+        <Button Clicked="Button_Clicked_1" Text="Bakiye Sorgula"></Button>
+
+    </StackLayout>
+</ContentPage>
